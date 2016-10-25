@@ -3,7 +3,7 @@
 Vagrantfile used for setting up an environment needed for Python web
 development purposes. A box provisioned with:
 
-1. CentOS 7
+1. CentOS 7 (bento/centos-7.2 box)
 2. Python 3.5
     * pip3.5
     * virtualenv
@@ -45,3 +45,7 @@ conjuction with Vagrant.
 6. Go to http://127.0.0.1:8888 on your host machine and see the page
    Nginx serves on your guest's machine from `/var/www/project/` root
    directory.
+
+7. Take a look at the
+   [Vagrant documentation](https://www.vagrantup.com/docs/) to further
+   explore its features.
